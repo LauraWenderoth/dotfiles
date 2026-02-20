@@ -1,0 +1,191 @@
+{
+    "workbench.sideBar.location": "right",
+    // "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.largeFileOptimizations": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 10,
+    "redhat.telemetry.enabled": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "python.analysis.diagnosticMode": "workspace",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "python.analysis.autoImportCompletions": true,
+    "ruff.nativeServer": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "github.copilot.enable": {
+        "markdown": true
+    },
+    "cSpell.userWords": [
+        "aclient",
+        "aiplatform",
+        "astype",
+        "autolog",
+        "bertscore",
+        "BLEU",
+        "bqsql",
+        "chatcompletions",
+        "colorlog",
+        "conint",
+        "datamodel",
+        "datas",
+        "dataservice",
+        "DBQR",
+        "docling",
+        "dotenv",
+        "dropna",
+        "fintabnet",
+        "fmeasure",
+        "fromlist",
+        "getfixturevalue",
+        "GLEU",
+        "gmft",
+        "gserviceaccount",
+        "Huggingface",
+        "iloc",
+        "iterrows",
+        "jsonlines",
+        "Kennzahlen",
+        "knowncontext",
+        "Langchain",
+        "levelname",
+        "litellm",
+        "logprob",
+        "logprobs",
+        "Lsum",
+        "ltstorage",
+        "Marburg",
+        "Metadatas",
+        "mlflow",
+        "mpnet",
+        "ndarray",
+        "noncomittal",
+        "omegaconf",
+        "OPENAI",
+        "Osolutions",
+        "pydantic",
+        "Qdrant",
+        "qrels",
+        "rainforest",
+        "Reformatter",
+        "rerank",
+        "reranked",
+        "Reranker",
+        "reranking",
+        "sacrebleu",
+        "scivqa",
+        "selectbox",
+        "sessionmaker",
+        "streamlit",
+        "strich",
+        "Testset",
+        "tqdm",
+        "trec",
+        "Unternehmen",
+        "venv",
+        "vllm",
+        "wandb"
+    ],
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.formatOnSave": true,
+    "jupyter.askForKernelRestart": false,
+    "git.openRepositoryInParentFolders": "never",
+    "makefile.configureOnOpen": true,
+    "clock.dateFormat": "HH:MM TT",
+    "outline.showVariables": false,
+    "cSpell.enabled": true,
+    "notebook.lineNumbers": "on",
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlab.duoChat.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "cSpell.blockCheckingWhenLineLengthGreaterThan": 1000,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.createEnvironment.trigger": "off",
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "748F6189-F65A-44D6-9BE7-09900619D6E6"
+        }
+    ],
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "[latex]": {
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80
+    },
+    "cSpell.language": "de,en",
+    "cSpell.ignoreRegExpList": [
+        "\\\\[a-zA-Z]+", // matches LaTeX commands like \section
+        "\\{.*?\\}" // matches braces content
+    ],
+    "[latex]": {
+        "cSpell.enabled": true,
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80
+    },
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "/Library/TeX/texbin/latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
+        }
+    ],
+    "yaml.schemas": {
+        "vscode://schemas/atlassian.atlascode/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.rovodev.showEntitlementNotifications": false,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "chat.viewSessions.orientation": "stacked",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latexindent.enabled": false,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    "latex-workshop.formatting.latex": "latexindent",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "chat.useAgentSkills": true,
+    "git.confirmSync": false
+}
