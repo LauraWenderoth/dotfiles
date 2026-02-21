@@ -15,7 +15,7 @@ How to use this setup script:
 1. Open a terminal and change to the directory where this script is located:
 
    ```
-   cd $YOUR_DOTFILES_DIRECTORY
+   cd $YOUR_DOTFILES_DIRECTORY/zsh
    ```
 
 2. Make the script executable:
@@ -51,3 +51,18 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 Than rerun config script.
+
+## Mac OS Zsh Installation
+
+cd $YOUR_DOTFILES_DIRECTORY/zsh
+chmod +x macos-install.sh
+bash -x ./macos-install.sh
+exec zsh
+
+### Problems with  ~/.zshrc
+
+Could not find ~/.zshrc, creating one and copying template from dotfiles. Was failing. touch ~/.zshrc
+
+1. rm ~/.zshrc
+2. cp /PATH/dotfiles/zsh/.zshrc ~/.zshrc
+3. touch ~/.zshrc
